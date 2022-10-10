@@ -14,13 +14,56 @@
         margin-top: 30px;
     }
 
-    .skills-logo {
-        font-size: 23px !important;
+    .skills-logo h1 {
+        font-size: 35px !important;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .skills-logo {
-        font-size: 17px !important;
+    .skills-logo h1 {
+        font-size: 20px;
+    }
+
+    .header__logo h2 {
+        font-size: 30px;
+    }
+
+    .header__logo h3 {
+        font-size: 20px;
+    }
+
+    .wrapper__main-logo-skill h1 {
+        font-size: 30px;
+    }
+
+    .img-node {
+        width: 185px;
+    }
+    .wrapper__main-skills-row-card {
+        height: 400px;
+    }
+
+    .wrapper__main-skills-row-card-description {
+        font-size: 17px;
+    }
+
+    .img-express {
+        width: 165px;
+    }
+
+    .img-mongo {
+        margin: 0 auto;
+        width: 170px;
+        height: 100px;
+    }
+
+    .img-mysql {
+        width: 150px;
+        height: 150px;
+    }
+
+    .wrapper__avatar img {
+        width: 100px;
+        height: 100px;
     }
 }
