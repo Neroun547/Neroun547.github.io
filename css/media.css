@@ -1,0 +1,26 @@
+@media screen and (max-width: 1660px) {
+    .wrapper__main-skills-row {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .wrapper__main-skills-row-card {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .wrapper__resource-link {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .skills-logo {
+        font-size: 23px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .skills-logo {
+        font-size: 17px !important;
+    }
+}
